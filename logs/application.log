@@ -1,0 +1,17 @@
+2023-07-19 08:55:07 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.cors.CORSFilter
+
+2023-07-19 08:55:07 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2023-07-19 08:55:07 [31mWARN [0;39m [36mp.api.mvc.DefaultJWTCookieDataCodec[0;39m [35m[0;39m decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2023-07-19 08:55:07 [34mINFO [0;39m [36mp.api.mvc.DefaultJWTCookieDataCodec[0;39m [35m[0;39m The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2023-07-19 08:55:07 [31mWARN [0;39m [36mc.z.hikari.util.DriverDataSource[0;39m [35m[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-07-19 08:55:18 [31mWARN [0;39m [36mp.api.mvc.DefaultJWTCookieDataCodec[0;39m [35m[0;39m decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2023-07-19 08:55:18 [34mINFO [0;39m [36mp.api.mvc.DefaultJWTCookieDataCodec[0;39m [35m[0;39m The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2023-07-19 08:55:29 [34mINFO [0;39m [36mp.a.i.l.c.CoordinatedShutdownSupport[0;39m [35m[0;39m Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2023-07-19 08:55:29 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Stopping Akka HTTP server...
+2023-07-19 08:55:29 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2023-07-19 08:55:29 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Running provided shutdown stop hooks
